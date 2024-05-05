@@ -7,8 +7,6 @@
    "scripts": {
             "start": "pm2 start . --attach --name SMD",
             "stop": "pm2 stop SMD",
-            "heroku-postbuild": "git clone https://github.com/bizode14/BIZODE.git Suhail && mv Suhail/.git .git && rm -rf Suhail && npx puppeteer@latest install  --y",
-            "fix-heroku-postbuild": "git clone https://github.com/bizode14/BIZODE.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm install && npx puppeteer@latest install",
             "postinstall": "npx puppeteer@latest install --y"
    },
    "author": "SuhailTechInfo",
@@ -70,11 +68,5 @@
    },
    "devDependencies": {
       "pino": "^7.0.5"
-   },
-   "repository": {
-      "type": "git",
-      "url": "git+https://github.com/bizode14/BIZODE.git"
-   },
-   "bugs": { "url": "https://github.com/bizode14/BIZODE/issues" },
-   "homepage": "https://github.com/bizode14/BIZODE#readme"
+   }
 }
