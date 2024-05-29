@@ -14,7 +14,7 @@
      
     "WELCOME": {
       "description": "put 'false' or 'true' to enable & disable WELCOME ",
-      "value": "true",
+      "value": "false",
       "required" :false
     },
      
@@ -78,12 +78,12 @@
     }, 
     "ELEVENLAB_API_KEY": {
       "description": "Put your ElevenLab api key here for Aitts. Watch tutorial from https://youtu.be/HCDcdPtkwg4 ",
-      "value": "- 3e57046161ccf9ac1f4b9e03828a5fe9",
+      "value": "-3e57046161ccf9ac1f4b9e03828a5fe9",
       "required" :false
     }, 
     "REMOVE_BG_KEY": {
       "description": "put your REMOVE BG KEY here.Get it from removeBg.com ",
-      "value": "- DJwc34NaWmhXmDxEeh6YUEmm",
+      "value": "-DJwc34NaWmhXmDxEeh6YUEmm",
       "required" :false
     },
     "MODE": {
