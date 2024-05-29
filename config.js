@@ -17,10 +17,10 @@ global.blockJids= process.env.BLOCK_JID || "null"
 global.DATABASE_URL = process.env.DATABASE_URL || ""
 
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
-global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
-global.gurl  =process.env.GURL  || "";
-global.website=process.env.GURL || "" ; 
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "" ; // SET LOGO FOR IMAGE 
+global.github=process.env.GITHUB|| "https://github.com/thecurlyhairGuy/Baldwin-MD";
+global.gurl  =process.env.GURL  || "https://chat.whatsapp.com/BdslsUWxmEPHofaDc07c2G";
+global.website=process.env.GURL || "https://chat.whatsapp.com/BdslsUWxmEPHofaDc07c2G" ; 
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/e51f13554bc36956c226a.jpg,https://telegra.ph/file/6d1ee47584ae83da52e6b.png" ; // SET LOGO FOR IMAGE 
 
 
 
@@ -37,7 +37,7 @@ global.flush = process.env.FLUSH   || "true"; // Make it "true" if bot not respo
 global.gdbye = process.env.GOODBYE || "false"; 
 global.wlcm  = process.env.WELCOME || "false";  // Make it "false" for disable WELCOME 
 
-global.warncount = process.env.WARN_COUNT || 3
+global.warncount = process.env.WARN_COUNT || 6
 global.disablepm = process.env.DISABLE_PM || "false"
 global.disablegroup = process.env.DISABLE_GROUPS || "false", // disable bot in groups when public mode
 
@@ -92,7 +92,7 @@ module.exports = {
 
 
   WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "private",
-  LANG: ( process.env.THEME ||  "SUHAIL"  ).toUpperCase(),
+  LANG: ( process.env.THEME ||  "GENOS"  ).toUpperCase(),
 
 
 
