@@ -92,12 +92,12 @@
     },
     "PACK_NAME": {
       "description": "Put Sticker Pack_Name.",
-      "value": "KING BALDWIN IV❤️",
+      "value": "ᴷᴵᴺᴳ ᴮᴬᴸᴰᵂᴵᴺ ᴵⱽ❤️🤚🏼",
       "required": false 
     },
     "PACK_AUTHER": {
       "description": "Put Sticker Author_Name.",
-      "value": "KING BALDWIN",
+      "value": "ᴷᴵᴺᴳ ᴮᴬᴸᴰᵂᴵᴺ",
       "required": false 
     }
   }, 
