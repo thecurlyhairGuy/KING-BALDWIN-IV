@@ -8,7 +8,7 @@
   "env": {
     "OWNER_NAME": {
       "description": "Name for Bot Owner",    
-      "value": "𝗞𝗜𝗡𝗚 𝗕𝗔𝗟𝗗𝗪𝗜𝗡",
+      "value": "ᴷᴵᴺᴳ ᴮᴬᴸᴰᵂᴵᴺ",
       "required" :true
     },   
      
@@ -26,7 +26,7 @@
     "BOT_NAME": {
       "description": " NAME FOR BOT",
       "required" :false,    
-      "value": "KING BALDWIN IV❤️🤚🏼"
+      "value": "𝖪𝖨𝖭𝖦 𝖡𝖠𝖫𝖣𝖶𝖨𝖭 𝖨𝖵❤️🤚🏼"
     }, 
     "TZ": {
       "description": "Put TIME_ZONE according to your location",
