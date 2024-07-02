@@ -1,5 +1,5 @@
 {
-  "name": "suhail-md@1.3.7",
+  "name": "suhail-md@1.3.9",
   "logo": "https://github.com/SuhailTechInfo/Suhail-Md/blob/main/lib/assets/suhail.jpg?raw=true",
   "success_url": "/",
   "app_url": "/suhail/",
@@ -101,7 +101,7 @@
       "required": false 
     }
   }, 
-  "addons": [{ "plan": "heroku-postgresql" }],
+  "addons": [{ "plan": "heroku-postgresql:essential-1" }],
   "buildpacks": [
     { "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" },
     { "url": "https://github.com/carlosdommor/heroku-buildpack-ffmpeg-latest" }
